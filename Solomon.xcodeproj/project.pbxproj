@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		9EFD186E2A38B3260099BBA5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD186D2A38B3260099BBA5 /* main.swift */; };
+		9EFD18762A38B3760099BBA5 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD18752A38B3760099BBA5 /* Package.swift */; };
+		9EFD18852A38B4B30099BBA5 /* SolomonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD18842A38B4B30099BBA5 /* SolomonTests.swift */; };
+		9EFD188C2A38B5260099BBA5 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD188B2A38B5260099BBA5 /* Block.swift */; };
+		9EFD188E2A38B5370099BBA5 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD188D2A38B5370099BBA5 /* Transaction.swift */; };
+		9EFD18902A38B5460099BBA5 /* Blockchain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD188F2A38B5460099BBA5 /* Blockchain.swift */; };
+		9EFD18962A38B5DB0099BBA5 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD18952A38B5DB0099BBA5 /* Node.swift */; };
+		9EFD18982A38B5EA0099BBA5 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD18972A38B5EA0099BBA5 /* NetworkService.swift */; };
+		9EFD189A2A38B60C0099BBA5 /* BlockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD18992A38B60C0099BBA5 /* BlockService.swift */; };
+		9EFD189C2A38B6170099BBA5 /* TransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD189B2A38B6170099BBA5 /* TransactionService.swift */; };
+		9EFD189E2A38B6230099BBA5 /* ConsensusService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD189D2A38B6230099BBA5 /* ConsensusService.swift */; };
+		9EFD18A02A38B63F0099BBA5 /* KeyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD189F2A38B63F0099BBA5 /* KeyPair.swift */; };
+		9EFD18A22A38B64D0099BBA5 /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD18A12A38B64D0099BBA5 /* CryptoService.swift */; };
+		9EFD18A42A38B65A0099BBA5 /* SignatureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD18A32A38B65A0099BBA5 /* SignatureService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +38,33 @@
 /* Begin PBXFileReference section */
 		9EFD186A2A38B3260099BBA5 /* Solomon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Solomon; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EFD186D2A38B3260099BBA5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9EFD18752A38B3760099BBA5 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		9EFD187C2A38B4200099BBA5 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		9EFD187D2A38B4540099BBA5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9EFD18822A38B4B30099BBA5 /* SolomonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolomonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EFD18842A38B4B30099BBA5 /* SolomonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolomonTests.swift; sourceTree = "<group>"; };
+		9EFD188B2A38B5260099BBA5 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		9EFD188D2A38B5370099BBA5 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		9EFD188F2A38B5460099BBA5 /* Blockchain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blockchain.swift; sourceTree = "<group>"; };
+		9EFD18952A38B5DB0099BBA5 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		9EFD18972A38B5EA0099BBA5 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		9EFD18992A38B60C0099BBA5 /* BlockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockService.swift; sourceTree = "<group>"; };
+		9EFD189B2A38B6170099BBA5 /* TransactionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionService.swift; sourceTree = "<group>"; };
+		9EFD189D2A38B6230099BBA5 /* ConsensusService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsensusService.swift; sourceTree = "<group>"; };
+		9EFD189F2A38B63F0099BBA5 /* KeyPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPair.swift; sourceTree = "<group>"; };
+		9EFD18A12A38B64D0099BBA5 /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
+		9EFD18A32A38B65A0099BBA5 /* SignatureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9EFD18672A38B3260099BBA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFD187F2A38B4B30099BBA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,7 +77,11 @@
 		9EFD18612A38B3260099BBA5 = {
 			isa = PBXGroup;
 			children = (
-				9EFD186C2A38B3260099BBA5 /* Solomon */,
+				9EFD18752A38B3760099BBA5 /* Package.swift */,
+				9EFD18742A38B35E0099BBA5 /* Sources */,
+				9EFD18832A38B4B30099BBA5 /* SolomonTests */,
+				9EFD187C2A38B4200099BBA5 /* .gitignore */,
+				9EFD187D2A38B4540099BBA5 /* README.md */,
 				9EFD186B2A38B3260099BBA5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,16 +90,140 @@
 			isa = PBXGroup;
 			children = (
 				9EFD186A2A38B3260099BBA5 /* Solomon */,
+				9EFD18822A38B4B30099BBA5 /* SolomonTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9EFD186C2A38B3260099BBA5 /* Solomon */ = {
+		9EFD18742A38B35E0099BBA5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9EFD18772A38B3870099BBA5 /* Solomon */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9EFD18772A38B3870099BBA5 /* Solomon */ = {
 			isa = PBXGroup;
 			children = (
 				9EFD186D2A38B3260099BBA5 /* main.swift */,
+				9EFD18782A38B3A20099BBA5 /* Blockchain */,
+				9EFD18792A38B3B40099BBA5 /* Network */,
+				9EFD187A2A38B3BF0099BBA5 /* Crypto */,
 			);
 			path = Solomon;
+			sourceTree = "<group>";
+		};
+		9EFD18782A38B3A20099BBA5 /* Blockchain */ = {
+			isa = PBXGroup;
+			children = (
+				9EFD18892A38B4F10099BBA5 /* Models */,
+				9EFD188A2A38B4FA0099BBA5 /* Services */,
+			);
+			path = Blockchain;
+			sourceTree = "<group>";
+		};
+		9EFD18792A38B3B40099BBA5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9EFD18932A38B5CF0099BBA5 /* Models */,
+				9EFD18942A38B5CF0099BBA5 /* Services */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9EFD187A2A38B3BF0099BBA5 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				9EFD18922A38B5C00099BBA5 /* Models */,
+				9EFD18912A38B5C00099BBA5 /* Services */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		9EFD18832A38B4B30099BBA5 /* SolomonTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EFD18842A38B4B30099BBA5 /* SolomonTests.swift */,
+				9EFD18A52A38B6800099BBA5 /* BlockchainTests */,
+				9EFD18A62A38B68B0099BBA5 /* NetworkTests */,
+				9EFD18A72A38B6930099BBA5 /* CryptoTests */,
+			);
+			path = SolomonTests;
+			sourceTree = "<group>";
+		};
+		9EFD18892A38B4F10099BBA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9EFD188B2A38B5260099BBA5 /* Block.swift */,
+				9EFD188D2A38B5370099BBA5 /* Transaction.swift */,
+				9EFD188F2A38B5460099BBA5 /* Blockchain.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9EFD188A2A38B4FA0099BBA5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9EFD18992A38B60C0099BBA5 /* BlockService.swift */,
+				9EFD189B2A38B6170099BBA5 /* TransactionService.swift */,
+				9EFD189D2A38B6230099BBA5 /* ConsensusService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9EFD18912A38B5C00099BBA5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9EFD18A12A38B64D0099BBA5 /* CryptoService.swift */,
+				9EFD18A32A38B65A0099BBA5 /* SignatureService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9EFD18922A38B5C00099BBA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9EFD189F2A38B63F0099BBA5 /* KeyPair.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9EFD18932A38B5CF0099BBA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9EFD18952A38B5DB0099BBA5 /* Node.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9EFD18942A38B5CF0099BBA5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9EFD18972A38B5EA0099BBA5 /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9EFD18A52A38B6800099BBA5 /* BlockchainTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BlockchainTests;
+			sourceTree = "<group>";
+		};
+		9EFD18A62A38B68B0099BBA5 /* NetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkTests;
+			sourceTree = "<group>";
+		};
+		9EFD18A72A38B6930099BBA5 /* CryptoTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CryptoTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +246,23 @@
 			productReference = 9EFD186A2A38B3260099BBA5 /* Solomon */;
 			productType = "com.apple.product-type.tool";
 		};
+		9EFD18812A38B4B30099BBA5 /* SolomonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EFD18862A38B4B30099BBA5 /* Build configuration list for PBXNativeTarget "SolomonTests" */;
+			buildPhases = (
+				9EFD187E2A38B4B30099BBA5 /* Sources */,
+				9EFD187F2A38B4B30099BBA5 /* Frameworks */,
+				9EFD18802A38B4B30099BBA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolomonTests;
+			productName = SolomonTests;
+			productReference = 9EFD18822A38B4B30099BBA5 /* SolomonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +274,9 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					9EFD18692A38B3260099BBA5 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					9EFD18812A38B4B30099BBA5 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -111,16 +295,47 @@
 			projectRoot = "";
 			targets = (
 				9EFD18692A38B3260099BBA5 /* Solomon */,
+				9EFD18812A38B4B30099BBA5 /* SolomonTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EFD18802A38B4B30099BBA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9EFD18662A38B3260099BBA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EFD188C2A38B5260099BBA5 /* Block.swift in Sources */,
+				9EFD189E2A38B6230099BBA5 /* ConsensusService.swift in Sources */,
+				9EFD18A02A38B63F0099BBA5 /* KeyPair.swift in Sources */,
+				9EFD189A2A38B60C0099BBA5 /* BlockService.swift in Sources */,
+				9EFD18A22A38B64D0099BBA5 /* CryptoService.swift in Sources */,
+				9EFD18762A38B3760099BBA5 /* Package.swift in Sources */,
+				9EFD188E2A38B5370099BBA5 /* Transaction.swift in Sources */,
+				9EFD18962A38B5DB0099BBA5 /* Node.swift in Sources */,
 				9EFD186E2A38B3260099BBA5 /* main.swift in Sources */,
+				9EFD189C2A38B6170099BBA5 /* TransactionService.swift in Sources */,
+				9EFD18A42A38B65A0099BBA5 /* SignatureService.swift in Sources */,
+				9EFD18902A38B5460099BBA5 /* Blockchain.swift in Sources */,
+				9EFD18982A38B5EA0099BBA5 /* NetworkService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFD187E2A38B4B30099BBA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EFD18852A38B4B30099BBA5 /* SolomonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +477,36 @@
 			};
 			name = Release;
 		};
+		9EFD18872A38B4B30099BBA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45WU468FZE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pipln.SolomonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9EFD18882A38B4B30099BBA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45WU468FZE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pipln.SolomonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -279,6 +524,15 @@
 			buildConfigurations = (
 				9EFD18722A38B3260099BBA5 /* Debug */,
 				9EFD18732A38B3260099BBA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EFD18862A38B4B30099BBA5 /* Build configuration list for PBXNativeTarget "SolomonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EFD18872A38B4B30099BBA5 /* Debug */,
+				9EFD18882A38B4B30099BBA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
