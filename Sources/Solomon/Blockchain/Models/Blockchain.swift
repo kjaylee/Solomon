@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+// Blockchain.swift
+class Blockchain {
+    var blocks: [Block] = []
+
+    func addBlock(_ block: Block) {
+        blocks.append(block)
+    }
+}
